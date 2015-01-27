@@ -80,7 +80,9 @@
 				12324778B85A6219C388B2DC /* Pods */,
 				C1ACF18B6597A599954E418E /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		1EFD2F0F1A780D7D00DCA3EE /* Products */ = {
 			isa = PBXGroup;
