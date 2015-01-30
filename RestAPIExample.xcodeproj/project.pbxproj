@@ -11,6 +11,8 @@
 		1EF025F01A794CE600ED307F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF025ED1A794CE600ED307F /* Alamofire.swift */; };
 		1EF025F11A794CE600ED307F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF025EE1A794CE600ED307F /* SwiftyJSON.swift */; };
 		1EF025F21A794CE600ED307F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF025EE1A794CE600ED307F /* SwiftyJSON.swift */; };
+		1EF026101A7BE44800ED307F /* GithubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0260F1A7BE44800ED307F /* GithubAPIClient.swift */; };
+		1EF026111A7BE44800ED307F /* GithubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0260F1A7BE44800ED307F /* GithubAPIClient.swift */; };
 		1EFD2F141A780D7D00DCA3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD2F131A780D7D00DCA3EE /* AppDelegate.swift */; };
 		1EFD2F161A780D7D00DCA3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD2F151A780D7D00DCA3EE /* ViewController.swift */; };
 		1EFD2F191A780D7D00DCA3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD2F171A780D7D00DCA3EE /* Main.storyboard */; };
@@ -33,6 +35,7 @@
 /* Begin PBXFileReference section */
 		1EF025ED1A794CE600ED307F /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		1EF025EE1A794CE600ED307F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1EF0260F1A7BE44800ED307F /* GithubAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIClient.swift; sourceTree = "<group>"; };
 		1EFD2F0E1A780D7D00DCA3EE /* RestAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFD2F121A780D7D00DCA3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EFD2F131A780D7D00DCA3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +89,14 @@
 			path = Dependencies;
 			sourceTree = "<group>";
 		};
+		1EF0260E1A7BE43900ED307F /* GithubAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1EF0260F1A7BE44800ED307F /* GithubAPIClient.swift */,
+			);
+			path = GithubAPI;
+			sourceTree = "<group>";
+		};
 		1EFD2F051A780D7D00DCA3EE = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +122,13 @@
 		1EFD2F101A780D7D00DCA3EE /* RestAPIExample */ = {
 			isa = PBXGroup;
 			children = (
-				1EF025EC1A794CE600ED307F /* Dependencies */,
 				1EFD2F131A780D7D00DCA3EE /* AppDelegate.swift */,
 				1EFD2F151A780D7D00DCA3EE /* ViewController.swift */,
 				1EFD2F171A780D7D00DCA3EE /* Main.storyboard */,
 				1EFD2F1A1A780D7D00DCA3EE /* Images.xcassets */,
 				1EFD2F1C1A780D7D00DCA3EE /* LaunchScreen.xib */,
+				1EF0260E1A7BE43900ED307F /* GithubAPI */,
+				1EF025EC1A794CE600ED307F /* Dependencies */,
 				1EFD2F111A780D7D00DCA3EE /* Supporting Files */,
 			);
 			path = RestAPIExample;
@@ -293,6 +305,7 @@
 			files = (
 				1EF025EF1A794CE600ED307F /* Alamofire.swift in Sources */,
 				1EFD2F161A780D7D00DCA3EE /* ViewController.swift in Sources */,
+				1EF026101A7BE44800ED307F /* GithubAPIClient.swift in Sources */,
 				1EFD2F141A780D7D00DCA3EE /* AppDelegate.swift in Sources */,
 				1EF025F11A794CE600ED307F /* SwiftyJSON.swift in Sources */,
 			);
@@ -302,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF026111A7BE44800ED307F /* GithubAPIClient.swift in Sources */,
 				1EF025F21A794CE600ED307F /* SwiftyJSON.swift in Sources */,
 				1EF025F01A794CE600ED307F /* Alamofire.swift in Sources */,
 				1EFD2F2A1A780D7D00DCA3EE /* RestAPIExampleTests.swift in Sources */,
