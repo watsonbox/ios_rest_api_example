@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1E1E4A2C1A7E9B0D0057F5E7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E4A2B1A7E9B0D0057F5E7 /* Repository.swift */; };
 		1E1E4A2D1A7E9B0D0057F5E7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E4A2B1A7E9B0D0057F5E7 /* Repository.swift */; };
+		1E1E4A311A7E9C140057F5E7 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E4A301A7E9C140057F5E7 /* ScheduleTests.swift */; };
+		1E1E4A331A7E9C530057F5E7 /* RestAPIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E4A321A7E9C530057F5E7 /* RestAPIExampleTests.swift */; };
 		1EF025EF1A794CE600ED307F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF025ED1A794CE600ED307F /* Alamofire.swift */; };
 		1EF025F01A794CE600ED307F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF025ED1A794CE600ED307F /* Alamofire.swift */; };
 		1EF025F11A794CE600ED307F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF025EE1A794CE600ED307F /* SwiftyJSON.swift */; };
@@ -20,7 +22,6 @@
 		1EFD2F191A780D7D00DCA3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD2F171A780D7D00DCA3EE /* Main.storyboard */; };
 		1EFD2F1B1A780D7D00DCA3EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD2F1A1A780D7D00DCA3EE /* Images.xcassets */; };
 		1EFD2F1E1A780D7D00DCA3EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD2F1C1A780D7D00DCA3EE /* LaunchScreen.xib */; };
-		1EFD2F2A1A780D7D00DCA3EE /* RestAPIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD2F291A780D7D00DCA3EE /* RestAPIExampleTests.swift */; };
 		2D393E93076D752B92FE6869 /* libPods-RestAPIExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FF8789C4E26499A2BAE63 /* libPods-RestAPIExampleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		1E1E4A2B1A7E9B0D0057F5E7 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		1E1E4A301A7E9C140057F5E7 /* ScheduleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
+		1E1E4A321A7E9C530057F5E7 /* RestAPIExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPIExampleTests.swift; sourceTree = "<group>"; };
 		1EF025ED1A794CE600ED307F /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		1EF025EE1A794CE600ED307F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		1EF0260F1A7BE44800ED307F /* GithubAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIClient.swift; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		1EFD2F1D1A780D7D00DCA3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1EFD2F231A780D7D00DCA3EE /* RestAPIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFD2F281A780D7D00DCA3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EFD2F291A780D7D00DCA3EE /* RestAPIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIExampleTests.swift; sourceTree = "<group>"; };
 		1EFD2F331A7819F900DCA3EE /* RestAPIExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestAPIExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		262FF8789C4E26499A2BAE63 /* libPods-RestAPIExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RestAPIExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28705633881B0EC90FFB6185 /* Pods-RestAPIExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIExampleTests/Pods-RestAPIExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +91,15 @@
 				1E1E4A2B1A7E9B0D0057F5E7 /* Repository.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1E1E4A2F1A7E9B750057F5E7 /* GithubAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1E1E4A301A7E9C140057F5E7 /* ScheduleTests.swift */,
+				1E1E4A321A7E9C530057F5E7 /* RestAPIExampleTests.swift */,
+			);
+			path = GithubAPI;
 			sourceTree = "<group>";
 		};
 		1EF025EC1A794CE600ED307F /* Dependencies */ = {
@@ -157,7 +168,7 @@
 		1EFD2F261A780D7D00DCA3EE /* RestAPIExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				1EFD2F291A780D7D00DCA3EE /* RestAPIExampleTests.swift */,
+				1E1E4A2F1A7E9B750057F5E7 /* GithubAPI */,
 				1EFD2F271A780D7D00DCA3EE /* Supporting Files */,
 				1EFD2F331A7819F900DCA3EE /* RestAPIExampleTests-Bridging-Header.h */,
 			);
@@ -330,9 +341,10 @@
 			files = (
 				1EF026111A7BE44800ED307F /* GithubAPIClient.swift in Sources */,
 				1EF025F21A794CE600ED307F /* SwiftyJSON.swift in Sources */,
+				1E1E4A311A7E9C140057F5E7 /* ScheduleTests.swift in Sources */,
 				1E1E4A2D1A7E9B0D0057F5E7 /* Repository.swift in Sources */,
 				1EF025F01A794CE600ED307F /* Alamofire.swift in Sources */,
-				1EFD2F2A1A780D7D00DCA3EE /* RestAPIExampleTests.swift in Sources */,
+				1E1E4A331A7E9C530057F5E7 /* RestAPIExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
