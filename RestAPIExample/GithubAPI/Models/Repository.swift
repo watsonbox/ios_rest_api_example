@@ -6,20 +6,18 @@
 //  Copyright (c) 2015 Howard Wilson. All rights reserved.
 //
 
-import Foundation
-
-class Repository {
+class Repository : ResponseObjectSerializable {
   let id: Int
-  let name: String
-  let fullName: String
+  var name: String
+  var fullName: String
 
-  init() {
-    id = 0
-    name = ""
-    fullName = ""
+  required init(data: JSON) {
+    id = data["id"].int!
+    name = data["name"].string!
+    fullName = data["full_name"].string!
   }
 
-  class func get(name: String, result: (Repository?) -> ()) {
-
+  class func get(name: String, result: (Repository?) -> (), failure: GithubAPIFailureHandler? = nil) {
+    GithubAPIClient.sharedInstance.getSingleObject(path: "/repos/\(name)", result: result, failure: failure)
   }
 }

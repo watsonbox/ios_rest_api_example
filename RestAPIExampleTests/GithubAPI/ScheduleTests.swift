@@ -12,7 +12,7 @@ import RestAPIExample
 class ScheduleTests: RestAPIExampleTests {
   func testGetRepository() {
     stubRequest(
-      "http://api.github.com/repos/watsonbox/pocketsphinx-ruby",
+      "https://api.github.com/repos/watsonbox/pocketsphinx-ruby",
       json: [
         "id": 25201289,
         "name": "pocketsphinx-ruby",
